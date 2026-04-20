@@ -16,6 +16,7 @@ buildah run "$ctr" -- env DEBIAN_FRONTEND=noninteractive \
 	libcups2-dev \
 	libgtk-3-dev \
 	libasound-dev \
+	libpulse0 \
 	dbus \
 	libdbus-1-3 \
 	xdg-utils
